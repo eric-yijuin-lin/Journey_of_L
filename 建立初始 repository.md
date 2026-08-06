@@ -38,12 +38,16 @@
 ## AI Agent
 1. 安裝 Codex CLI (安裝完會直接問要不要執行，暫時不要)
    `curl -fsSL https://chatgpt.com/codex/install.sh | sh`
-2. 確認版本
+2. 確認安裝與版本
    ```
    source ~/.bashrc
    command -v codex
    codex --version
    ```
+   3. 登入 Codex
+	   1. 進入專案資料夾
+	   2. 在 shell 輸入 codex
+	   3. 在瀏覽器登入 ChatGPT（未來可以變成使用 API Key）
 ## 專案
 1. 建立並移動到資料夾
    ```
