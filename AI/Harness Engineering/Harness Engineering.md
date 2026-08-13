@@ -1,3 +1,4 @@
+#ai 
 ## 粗略理解
 透過 feedforward (Guide) + feedback (Sensor) 一方面給予 AI 更明確的指令與理解 (Guide)，一方面透過監測 (Sensor) 讓 AI 知道自己沒做好的地方，並且持續修正。
 
