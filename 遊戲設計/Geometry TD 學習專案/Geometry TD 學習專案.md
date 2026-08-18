@@ -1,4 +1,4 @@
-#ai
+#AI
 本專案主要用來學習 Harness Engineering，過程雖然可能把一些重要的遊戲設計基礎，記下或者連結到其他節點，但主要還是會著重在 AI Agent 的操作以及流程的驗證。
 
 ※ 專案名稱: ~/projects/td-harness-lab

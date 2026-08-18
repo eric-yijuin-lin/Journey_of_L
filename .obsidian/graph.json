@@ -15,31 +15,38 @@
       }
     },
     {
-      "query": "#程式設計",
+      "query": "#Programming",
       "color": {
         "a": 1,
         "rgb": 14392090
       }
     },
     {
-      "query": "#ai",
+      "query": "#AI",
       "color": {
         "a": 1,
         "rgb": 16529663
       }
     },
     {
-      "query": "#教甄",
+      "query": "#TeacherSelection",
       "color": {
         "a": 1,
         "rgb": 65310
       }
     },
     {
-      "query": "#碩論",
+      "query": "#Thesis",
       "color": {
         "a": 1,
-        "rgb": 3716095
+        "rgb": 3154684
+      }
+    },
+    {
+      "query": "#Education",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
       }
     }
   ],
@@ -53,6 +60,6 @@
   "repelStrength": 13.2387364060073,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.7132754626224408,
+  "scale": 1,
   "close": true
 }
