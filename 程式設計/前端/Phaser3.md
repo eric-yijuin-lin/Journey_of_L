@@ -1,7 +1,13 @@
 #js #ts #frontend
 # 基礎知識
 
-
+## Scene 物件
+- create()
+	- Scene 物件被建立時會呼叫的函式
+- update(time: number, delta: number)
+	- 遊戲進行時會不斷呼叫的函式
+	- time 會傳入一個高精度時戳（但不是  UTC），隨著遊戲進行增加
+	- delta 會傳入距離上一個 frame 過了多少時間
 
 # 指令參考
 ## 新增專案
