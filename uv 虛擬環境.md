@@ -1,3 +1,10 @@
+#programming 
+## 開新專案
+1.  `uv init 專案名稱 `
+	* 可選參數：
+		* --no-package：暫時不把此專案封裝成 Python 套件
+2. 指定 Python 版本: `uv python pin 版本號`
+3. 
 ## uv pip install 注意事項
 - 適合用來快速測試或修緊急的 bug
 - 如果要長期加入專案，還是要走 uv add，反則依賴不會被加入  project.toml、uv.lock，版空失效而無法直接在其他地方 uv sync
