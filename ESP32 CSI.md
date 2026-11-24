@@ -16,4 +16,7 @@ https://github.com/espressif/esp-csi.git
 	4. Save (S) -> Exit (Q)
 6. 設定 utf-8 編碼以避免輸出錯誤
    ` $env:PYTHONIOENCODING="utf-8"`
-7. 
+
+
+## 相容性問題
+(AI) 目前 ESP idf 對 CSI 的直接相容版本是 5.0.2，但 5.5.5 可以執行沒問題。不過，在依賴套件 pandas 的部分，直接用 3.x 版本會出錯，必須降版至 2.x。目前測試，3.1.1 會錯，2.2.3 可以執行
