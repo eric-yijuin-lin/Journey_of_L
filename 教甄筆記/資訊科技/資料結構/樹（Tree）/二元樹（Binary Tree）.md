@@ -1,5 +1,16 @@
 #TeacherSelection
 
+## 樹的形容詞
+* full binary tree 
+	* 除了樹葉以外，每個節點都有兩個子節點。
+	* 中譯完「滿」(full)
+* complete binary tree 
+	* 各層節點全滿，除了最後一層，最後一層節點全部靠左。
+	* 中譯完「整」(complete)
+* perfect binary tree 
+	* 各層節點全滿。同時也是 full binary tree 和 complete binary tree 。
+	* 中譯完美，不解釋
+
 ## 走訪
 ### 前序/中序/後序
 以**根節點**為參考點而定的走訪順序，決定走訪的順序：
@@ -20,3 +31,7 @@
 ## 各種二元樹
 ### [[AVL Tree]]
 ### [[霍夫曼樹（編碼）]]
+### [[運算樹]]
+
+### [[Heap]]
+
